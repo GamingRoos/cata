@@ -102,7 +102,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "592e1223-9e5b-469f-9fdb-a8d274453911")
 	)
 	(fp_line
