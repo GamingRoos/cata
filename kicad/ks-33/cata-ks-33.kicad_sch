@@ -1,0 +1,8646 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ef1b4b98-541b-4673-a04f-2043250fc40a")
+	(paper "A4")
+	(title_block
+		(title "Cata KS-33")
+		(date "2025-07-27")
+		(rev "1.0")
+		(company "skarrmann")
+	)
+	(lib_symbols
+		(symbol "cata-components:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D"
+				(at -1.27 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cata-components:Hole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Hole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Hole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Hole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cata-components:Logo"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Logo"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_0_1"
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "cata-components:RP2040-Zero"
+			(pin_names
+				(offset 1)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RP2040-Zero"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RP2040-Zero_SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP2040-Zero_0_1"
+				(rectangle
+					(start -12.7 17.78)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RP2040-Zero_1_1"
+				(pin input line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -22.86 90)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -22.86 90)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -22.86 90)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -11.43 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -3.81 0)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 11.43 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 3.81 0)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 11.43 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 15.24 0)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -11.43 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cata-components:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 123.19 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02bd188b-d42d-4944-9981-09d40592a9ac")
+	)
+	(junction
+		(at 46.99 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d4816a-76d2-4818-a684-4c543a2bf3e9")
+	)
+	(junction
+		(at 133.35 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05145881-be8e-413a-9d3f-e66edd488d42")
+	)
+	(junction
+		(at 212.09 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0db3e3d1-b6f9-4bd0-ab33-d41376fdb16d")
+	)
+	(junction
+		(at 163.83 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16feb9ee-c43c-4c9c-a42b-5d2f3a6b28ec")
+	)
+	(junction
+		(at 231.14 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18fb0521-d64e-49d5-a22a-5c646a00b9fc")
+	)
+	(junction
+		(at 220.98 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19419ddc-f2fe-4baa-b6b1-8c04335556c2")
+	)
+	(junction
+		(at 231.14 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c30215a-72c6-4709-a1b7-0263463018be")
+	)
+	(junction
+		(at 163.83 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2090f9e4-60b8-4138-b455-cbde2d3a76cf")
+	)
+	(junction
+		(at 104.14 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b55a5e-015b-41a0-973d-89d58fe9b9c4")
+	)
+	(junction
+		(at 133.35 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33c8fcc0-d843-46d1-ae05-d1c88260a0bc")
+	)
+	(junction
+		(at 66.04 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3682f027-1bf7-4296-9bd1-5a930d23c784")
+	)
+	(junction
+		(at 201.93 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "419dc6d7-a0ce-4bc4-83fb-046a27dcc5b6")
+	)
+	(junction
+		(at 193.04 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "435144e3-a9d2-4b67-946d-7fc074a78622")
+	)
+	(junction
+		(at 76.2 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "488119ba-9852-4265-b6a7-7c39b55bd940")
+	)
+	(junction
+		(at 250.19 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aedeef0-61c8-4f25-ba83-f177a3d9ceea")
+	)
+	(junction
+		(at 250.19 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d37e499-7f04-4a85-b3c1-8de4965a2bf8")
+	)
+	(junction
+		(at 104.14 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f080e5d-6f4b-409f-8dc5-44d0e9638dd2")
+	)
+	(junction
+		(at 133.35 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56fec4c0-6769-4106-9790-ffdd5873ae9b")
+	)
+	(junction
+		(at 240.03 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59ec3bb0-d17d-47c9-be62-039cbd79fb31")
+	)
+	(junction
+		(at 212.09 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b744968-88b6-44d6-88f0-d9fea1c0d7e8")
+	)
+	(junction
+		(at 114.3 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d355642-97fd-4918-a6fe-439e35af778e")
+	)
+	(junction
+		(at 220.98 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60cd2642-c78a-4de7-b52b-0c00a2f5e633")
+	)
+	(junction
+		(at 201.93 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6369b3d0-e189-4616-9086-cccb241e126d")
+	)
+	(junction
+		(at 114.3 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "687f39d6-dde1-413c-a966-23de5042e558")
+	)
+	(junction
+		(at 182.88 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7378d200-ce49-4fbe-92c4-be3b84db3300")
+	)
+	(junction
+		(at 182.88 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c1f7735-2e12-4e67-b2dd-300d9aee933a")
+	)
+	(junction
+		(at 212.09 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c508929-ae5e-48fb-8e0b-6dda9d44c9c7")
+	)
+	(junction
+		(at 123.19 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9efb4a25-6b73-4bde-a570-0f4080a853ef")
+	)
+	(junction
+		(at 95.25 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a396a246-b79d-46d2-bd16-0fc6c0d5227b")
+	)
+	(junction
+		(at 163.83 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e29236-39e1-48ef-ae6b-72b3a611fd7a")
+	)
+	(junction
+		(at 250.19 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0b852b-e4bc-4722-b2b9-d809f0cdd188")
+	)
+	(junction
+		(at 114.3 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8cf7680-5ddf-4638-9ca9-d818df99f8cf")
+	)
+	(junction
+		(at 182.88 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bddbb87a-1d82-4444-97ec-bd5925b87bba")
+	)
+	(junction
+		(at 104.14 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1805ee4-571d-4f9a-9d79-00ec836d3f3b")
+	)
+	(junction
+		(at 85.09 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c44b383b-abce-4340-9e26-95ffb73f0b68")
+	)
+	(junction
+		(at 123.19 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ed1b27-4d53-4933-9b67-a50577f4dbcc")
+	)
+	(junction
+		(at 193.04 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3252aa-8e59-4718-a695-b39076167b5a")
+	)
+	(junction
+		(at 66.04 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfd236cf-0adb-4b3e-8cf7-3a11f2791d8e")
+	)
+	(junction
+		(at 193.04 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a6d1bf-a149-4969-a251-4efaae3d56a9")
+	)
+	(junction
+		(at 133.35 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbc01b2d-1ba1-4ef8-bfea-97050091a5ce")
+	)
+	(junction
+		(at 85.09 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbebfc27-b019-4604-aa9e-68ad614ef151")
+	)
+	(junction
+		(at 95.25 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcc82750-de28-43ad-ac6e-d7ea3b2908b0")
+	)
+	(junction
+		(at 76.2 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12a3a69-e72d-42e2-8005-ec3e85f81423")
+	)
+	(junction
+		(at 76.2 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4dda27c-eb58-4638-bdd0-898cb4e6b082")
+	)
+	(junction
+		(at 193.04 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5a270f6-a5dd-4c08-9006-8ed32fb83a26")
+	)
+	(junction
+		(at 95.25 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f50ee3-c1a3-4705-89e1-2b9a89040500")
+	)
+	(junction
+		(at 231.14 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb3c43c6-4b69-4657-b0cb-04ce2d62ec78")
+	)
+	(junction
+		(at 46.99 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd650bc9-b69d-4c93-9f5b-d3ea18f49d58")
+	)
+	(junction
+		(at 240.03 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe2daca0-8349-4ea3-a021-35b76b6a563e")
+	)
+	(no_connect
+		(at 176.53 130.81)
+		(uuid "0824e0d3-a19c-4792-9c11-bd6f9a7e9574")
+	)
+	(no_connect
+		(at 176.53 115.57)
+		(uuid "20e97aae-f47d-4805-8589-2ccd2d3b3833")
+	)
+	(no_connect
+		(at 176.53 127)
+		(uuid "57554f96-4ea1-4043-858b-56a839a26282")
+	)
+	(no_connect
+		(at 212.09 130.81)
+		(uuid "68190f46-b286-4398-a639-e716996b8dc4")
+	)
+	(no_connect
+		(at 212.09 119.38)
+		(uuid "6fdbf05e-6d7e-454c-928f-f69ab707bb6e")
+	)
+	(no_connect
+		(at 39.37 127)
+		(uuid "7ac3c68f-8ea8-45c7-be2a-db5931291fdf")
+	)
+	(no_connect
+		(at 212.09 115.57)
+		(uuid "7d96345c-e522-4f07-a49e-3377c2831e06")
+	)
+	(no_connect
+		(at 212.09 123.19)
+		(uuid "87dcbafe-4b29-43ae-94a0-6bf20fdcb6d6")
+	)
+	(no_connect
+		(at 95.25 118.11)
+		(uuid "89a8e170-a222-41c0-b545-c9f4c5604011")
+	)
+	(no_connect
+		(at 67.31 127)
+		(uuid "ac6481d5-de84-4050-9988-ce832189b065")
+	)
+	(no_connect
+		(at 81.28 118.11)
+		(uuid "d3e133b7-2c84-4206-a2b1-e693cb57fe56")
+	)
+	(no_connect
+		(at 95.25 127)
+		(uuid "d9539c4e-9ad0-4b76-b5bd-b2eb029e2f84")
+	)
+	(no_connect
+		(at 39.37 118.11)
+		(uuid "da481376-0e49-44d3-91b8-aaa39b869dd1")
+	)
+	(no_connect
+		(at 53.34 135.89)
+		(uuid "e60d2212-44b1-4839-bea6-0790ceb4802c")
+	)
+	(no_connect
+		(at 212.09 127)
+		(uuid "f5613c72-0e25-400c-98ff-729d3ae1f0dd")
+	)
+	(no_connect
+		(at 53.34 118.11)
+		(uuid "f988d6ea-11c5-4837-b1d1-5c292ded50c6")
+	)
+	(wire
+		(pts
+			(xy 182.88 24.13) (xy 182.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d051ab-e000-4c7a-938e-d96cf5c6b59e")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0699c508-5b6e-425f-bf07-e33113354d6e")
+	)
+	(wire
+		(pts
+			(xy 57.15 40.64) (xy 76.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10fcf21d-f872-49aa-9601-d644fad68843")
+	)
+	(wire
+		(pts
+			(xy 240.03 24.13) (xy 240.03 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18550786-214e-4433-b91e-b4a9d891b9f2")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 139.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1ff7ec-20f1-4f4a-a56c-2f42627eecab")
+	)
+	(wire
+		(pts
+			(xy 201.93 52.07) (xy 201.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9745f8-bfa7-4502-99b8-0c083e6782e4")
+	)
+	(wire
+		(pts
+			(xy 220.98 24.13) (xy 220.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5a14f0-d42b-4de5-b85a-472e553f94a9")
+	)
+	(wire
+		(pts
+			(xy 66.04 24.13) (xy 66.04 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7babe5-27fb-43cf-a681-880bff1bb559")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 133.35 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21362a3b-6c7e-438b-b1a2-24024a17e9b4")
+	)
+	(wire
+		(pts
+			(xy 173.99 73.66) (xy 193.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f2ee6b-6768-4cb7-a3ff-375af6752002")
+	)
+	(wire
+		(pts
+			(xy 182.88 35.56) (xy 182.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e4fd6c-3933-47f3-8ed9-ef95dbce303b")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 250.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5c3311-96f5-4d35-a88f-a48181dd7482")
+	)
+	(wire
+		(pts
+			(xy 85.09 52.07) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f812b22-abdb-4be8-b8e1-e70e32ceb89e")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a0427e-10f3-4c9a-a128-4d108b64ff6b")
+	)
+	(wire
+		(pts
+			(xy 85.09 24.13) (xy 85.09 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38187faa-c7fa-4be7-b4f2-0c3503c20c3a")
+	)
+	(wire
+		(pts
+			(xy 123.19 24.13) (xy 123.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbcb83e-3f50-4d13-a04f-31f1ccce9a9b")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c69700-e7f9-4c37-b173-82e74e928366")
+	)
+	(wire
+		(pts
+			(xy 57.15 57.15) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46769e88-7ae8-4198-baf8-605be6d5e764")
+	)
+	(wire
+		(pts
+			(xy 104.14 68.58) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf53b0a-4745-44ea-9ec4-f78fab710403")
+	)
+	(wire
+		(pts
+			(xy 176.53 123.19) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c0ba65-b0f1-4478-89df-cee06a8e78de")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 133.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1da07d-a008-4f31-8b4c-41762203daf1")
+	)
+	(wire
+		(pts
+			(xy 250.19 57.15) (xy 256.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb4d071-9588-45f9-9158-c08b530a0489")
+	)
+	(wire
+		(pts
+			(xy 231.14 57.15) (xy 250.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60215ba9-fccd-498b-bec9-9d7ca3817e83")
+	)
+	(wire
+		(pts
+			(xy 104.14 52.07) (xy 104.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f09bb2-f6e8-4d51-b77c-8d638339564e")
+	)
+	(wire
+		(pts
+			(xy 46.99 35.56) (xy 46.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bbf557-72a7-43f4-bc48-fe9a21bca126")
+	)
+	(wire
+		(pts
+			(xy 163.83 52.07) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be6dc2f-e0d5-46c3-b67d-6cdb5c9e6cb3")
+	)
+	(wire
+		(pts
+			(xy 193.04 73.66) (xy 212.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4873d8-b057-4df8-8458-6f01e5800622")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774b6b4f-8de0-48d4-b6c6-30c97f101d7c")
+	)
+	(wire
+		(pts
+			(xy 201.93 35.56) (xy 201.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785e8647-478a-434f-9e76-e4c2b5127261")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d38860-0a4f-4bac-adec-a0fb90e3d3eb")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 95.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b6c1a3-fadc-44a9-b0a1-bed02e9d0f50")
+	)
+	(wire
+		(pts
+			(xy 193.04 57.15) (xy 212.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3536a8-b38c-460f-a95b-bf1d2e99a45f")
+	)
+	(wire
+		(pts
+			(xy 231.14 40.64) (xy 250.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eec5652-bf98-4b63-a656-4390620bbdf4")
+	)
+	(wire
+		(pts
+			(xy 250.19 40.64) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b260bf-86a1-489e-b365-774763fc6814")
+	)
+	(wire
+		(pts
+			(xy 46.99 52.07) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84130a9d-6721-461a-911b-315d0f23bfcd")
+	)
+	(wire
+		(pts
+			(xy 76.2 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8799fa3a-9e77-43f0-a59b-1f193d8b7ad2")
+	)
+	(wire
+		(pts
+			(xy 123.19 35.56) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d9b7fe-a349-4d64-bea3-20785324f821")
+	)
+	(wire
+		(pts
+			(xy 104.14 35.56) (xy 104.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6c67f1-4f47-4e98-bb1d-8db1ed7f39ba")
+	)
+	(wire
+		(pts
+			(xy 250.19 73.66) (xy 256.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbd7a3d-6f23-420b-869d-9daa4e2d8cce")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2b54ad-6398-4d07-902d-425c4b097f7b")
+	)
+	(wire
+		(pts
+			(xy 173.99 57.15) (xy 193.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8904e1-a766-42c7-a98f-591f91878c3a")
+	)
+	(wire
+		(pts
+			(xy 240.03 35.56) (xy 240.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee0fced-eaee-4fbc-96d4-e39a02a0442c")
+	)
+	(wire
+		(pts
+			(xy 163.83 35.56) (xy 163.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f380b42-64f1-4c77-a4ef-3666582c4a3d")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a303872b-1977-4b00-93f4-36d38e6e6b00")
+	)
+	(wire
+		(pts
+			(xy 220.98 35.56) (xy 220.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ad40c6-0bc6-4644-836c-4b6db02d997f")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 114.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af21d4d3-99f0-416d-b6d0-e4fb55438f89")
+	)
+	(wire
+		(pts
+			(xy 193.04 91.44) (xy 256.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afce06a8-453b-463b-ba9a-eb8bbdfb0a89")
+	)
+	(wire
+		(pts
+			(xy 240.03 52.07) (xy 240.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3378025-fb45-4ec4-9649-4697075dfb2c")
+	)
+	(wire
+		(pts
+			(xy 95.25 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c0131f-3ee4-48d7-968a-77ea6ebefb31")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 176.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ee09f0-9e80-4d47-8d5f-5f0cb242c3cd")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b847a7a0-fa24-445d-8be6-0a1c120afde2")
+	)
+	(wire
+		(pts
+			(xy 46.99 24.13) (xy 46.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba313564-a55e-4776-816c-3733a8c5fd53")
+	)
+	(wire
+		(pts
+			(xy 163.83 24.13) (xy 163.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc43b5e8-f648-427f-a8e0-cf207164634b")
+	)
+	(wire
+		(pts
+			(xy 212.09 40.64) (xy 231.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02330db-b7e7-409e-88b5-a1917440d8ba")
+	)
+	(wire
+		(pts
+			(xy 201.93 24.13) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c191e642-fb94-4a85-a6f6-8bf706fae5bc")
+	)
+	(wire
+		(pts
+			(xy 57.15 73.66) (xy 76.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c965f2-fad3-446f-801c-7fa769b41ac0")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41f2eb6-6fed-40f4-9ca9-8518e8dc3d73")
+	)
+	(wire
+		(pts
+			(xy 182.88 52.07) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a169b8-2517-4f3d-bded-9fe2da595615")
+	)
+	(wire
+		(pts
+			(xy 220.98 52.07) (xy 220.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b120eb-1104-474a-b697-7f023728270b")
+	)
+	(wire
+		(pts
+			(xy 133.35 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a2447c-64b4-406a-aafb-8cc47cd9ff82")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b9a6b8-70ba-4335-98be-aec3fc11ee3b")
+	)
+	(wire
+		(pts
+			(xy 176.53 118.11) (xy 176.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d819fa91-9e90-4876-a3d5-bac18a549b8b")
+	)
+	(wire
+		(pts
+			(xy 173.99 40.64) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f27441-9714-48dc-8172-a4752290c6a0")
+	)
+	(wire
+		(pts
+			(xy 104.14 24.13) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbef5923-a716-48c2-9c9b-1d9fa8e1cc36")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc300c2b-e634-487b-a2c9-76133343e7b6")
+	)
+	(wire
+		(pts
+			(xy 173.99 91.44) (xy 193.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e145b0cc-abce-40ee-a7cc-a1debbcbed12")
+	)
+	(wire
+		(pts
+			(xy 163.83 68.58) (xy 163.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6098e39-92cc-4c5d-8ebb-0c197d7efae5")
+	)
+	(wire
+		(pts
+			(xy 133.35 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f103ba-5961-491b-8481-eb8f748bedee")
+	)
+	(wire
+		(pts
+			(xy 123.19 52.07) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea084369-8549-483a-bbd7-eb7be71736d0")
+	)
+	(wire
+		(pts
+			(xy 212.09 73.66) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda7255e-ff17-4bf7-9aa4-fdd7161e871f")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4870381-99b1-4619-a55e-c9c0e49f299a")
+	)
+	(wire
+		(pts
+			(xy 193.04 40.64) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbff7525-5dc3-499a-b300-541a1cb3d5a9")
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 194.31 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01ca2499-3971-47ff-82c3-13491b7f04a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 160.8391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 240.03 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "072e3f52-2b70-4ee4-a170-93b120c64df2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 198.12 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a14b984-4e55-4f38-8f2d-25d58dd6c145")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 160.8391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 66.04 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a335fdc-1b10-4b22-9adc-5334b491b936")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 123.19 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b4f6f0d-e741-450d-8c48-0fed70d8e638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 201.93 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c121485-0ed7-45ff-81e0-e82d95b3e976")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 160.8391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW8"
+		(shape input)
+		(at 212.09 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "341d6f9c-687b-4c8e-b2ca-75549b3c9625")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.6824 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW8"
+		(shape input)
+		(at 256.54 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38b3e32b-ba8d-452a-9d55-a655e018fb87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.1324 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 256.54 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ec26fb5-bfb8-4b82-b867-f5e8d5df49d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.1324 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 256.54 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68767856-6e7b-4ef8-8286-88f6522b2cc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.1324 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 139.7 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c531dda-5e69-4d16-b431-c5ab7aba9c26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2924 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 201.93 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7225cc43-b084-43b0-baca-1749999fa101")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 176.53 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73c816c7-3ba0-411a-8471-bf6c39f6e100")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9376 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 176.53 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7673e6c9-c0f5-46c4-a7a9-a9ea4d0a99c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9376 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 212.09 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "834ef901-47b3-48cf-befb-019e8564db63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.6824 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW7"
+		(shape input)
+		(at 176.53 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "841b1f09-cddf-4638-b6cf-b088e5b74b1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9376 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 163.83 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8489656a-ab75-4b40-8272-d99af16b2009")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW7"
+		(shape input)
+		(at 139.7 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85d5675c-d7ea-4e01-a237-6c65f936a1e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2924 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 176.53 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b33e81a-9242-436b-9903-409f0bcb1307")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9376 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 212.09 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "906a09cd-55b9-4abc-9222-42efb3a19195")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.6824 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW6"
+		(shape input)
+		(at 212.09 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9faf42b9-e757-4f6f-bbcc-28c96d98611e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.6824 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 139.7 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a05d396a-25c2-4804-9c81-443a887ba360")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2924 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 85.09 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1b96382-ffe1-45ba-8edb-fcd8e13d4359")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 182.88 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb2c00f3-314b-4ff0-9b48-2e9ac7ce20c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW6"
+		(shape input)
+		(at 256.54 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0e8a9a4-02ed-44cf-857f-cea74fe70586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.1324 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 190.5 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c828b06f-630a-463e-95a3-e12032238bbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 160.8391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 139.7 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d090b6f8-b904-4c42-bf8c-add86b90bab9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2924 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 186.69 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e672444e-52bf-4603-9afb-80bf1098395c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 160.8391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 104.14 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ead274da-dc3a-4ecb-9c7a-f91a8a86ad04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 46.99 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed2cf4d0-7af2-4854-839b-75e2473ca044")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 220.98 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffbafd24-6c21-48d0-b879-ad10e546b5f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 16.9609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 52.07 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060f31390")
+		(property "Reference" "SW1"
+			(at 52.07 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 52.07 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da151d0a-a1fa-4865-aa78-eb4b6082fbfd")
+		)
+		(pin "2"
+			(uuid "41ef6d8e-078c-46e5-a743-15f86f94b1c5")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 39.37 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000610d7ee0")
+		(property "Reference" "H1"
+			(at 41.91 114.3254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 41.91 116.6368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17adff9d-c581-42e4-b552-035b922b5256")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 53.34 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000610d9935")
+		(property "Reference" "H2"
+			(at 55.88 114.3254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 55.88 116.6368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5eb7c6e-b098-49b0-b366-c8b7c67afed0")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 81.28 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000610e42c7")
+		(property "Reference" "H3"
+			(at 83.82 114.3254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 83.82 116.6368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0e6fae4-0008-43ed-8719-bf62839f601f")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 95.25 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000610e42cd")
+		(property "Reference" "H4"
+			(at 97.79 114.3254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 97.79 116.6368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544c9ad7-a0b6-4f88-9dcd-908e3e2acf79")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Logo")
+		(at 55.88 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000611138f2")
+		(property "Reference" "LOGO1"
+			(at 62.9412 163.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Logo"
+			(at 62.9412 166.243 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Logo_Cata"
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 71.12 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061407203")
+		(property "Reference" "SW2"
+			(at 71.12 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 71.12 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6428332e-b689-4aa8-86bb-3bee31b6f177")
+		)
+		(pin "2"
+			(uuid "d5128f0b-0a4f-4337-a7f7-9a3dfe4ad4f9")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 90.17 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006141a3d4")
+		(property "Reference" "SW3"
+			(at 90.17 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 90.17 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d32fbdb-2a37-4863-af10-fc85c1c6174f")
+		)
+		(pin "2"
+			(uuid "a072347a-1cac-4ead-8c61-cfe38fd40342")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 109.22 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006141a410")
+		(property "Reference" "SW4"
+			(at 109.22 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51bdd1cb-8a01-4b1c-940a-3ff4dd1de87c")
+		)
+		(pin "2"
+			(uuid "6025c071-1487-4c03-a645-f67437519813")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 128.27 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614404b5")
+		(property "Reference" "SW5"
+			(at 128.27 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 128.27 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 128.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff163833-80b9-4bc7-baa1-aa11870ad397")
+		)
+		(pin "2"
+			(uuid "8d054a8d-7435-41ed-8832-6067aada259a")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Logo")
+		(at 78.74 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061512730")
+		(property "Reference" "LOGO2"
+			(at 85.8012 163.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Logo-Name"
+			(at 85.8012 166.243 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Logo_Cata_Name"
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 226.06 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00cff1a3-3e95-483a-9c5d-2bef092a63d8")
+		(property "Reference" "SW19"
+			(at 226.06 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 226.06 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f824f5d-496c-44e9-ac61-65f05cf6edc8")
+		)
+		(pin "2"
+			(uuid "fc7b0a66-80d4-47cc-b5b5-1b1366f83920")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 71.12 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0592ce0d-63cb-46af-bdcd-77be02c27a9e")
+		(property "Reference" "SW22"
+			(at 71.12 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 71.12 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c46dfc6e-34c1-4eb6-b5aa-bc42e0c261a1")
+		)
+		(pin "2"
+			(uuid "4af1e620-c377-4362-af6f-626d089906d7")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 207.01 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a0ebaff-3115-434a-80e8-d101cdff6e95")
+		(property "Reference" "SW28"
+			(at 207.01 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b02d5f8b-c0ac-4989-ba1a-c0a0f49d3091")
+		)
+		(pin "2"
+			(uuid "70f574f4-3658-478e-8f87-fc13171fcaf3")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 128.27 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a79c42c-3b2a-4512-b58e-d4cfed62b8e4")
+		(property "Reference" "SW15"
+			(at 128.27 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 128.27 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "064be554-1a71-4e06-92c0-edccda6f33f7")
+		)
+		(pin "2"
+			(uuid "51e15b5f-9516-42aa-b123-010930b7867a")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 95.25 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f8ec294-f04f-4677-84d0-8939046454a2")
+		(property "Reference" "D3"
+			(at 97.79 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 97.79 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 95.25 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34358fa6-b8da-4525-b091-eb4f6d8eeca5")
+		)
+		(pin "2"
+			(uuid "45c51345-f925-42b1-a844-6da6ac6e9313")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 57.15 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1319a7a8-661b-47cf-bd41-85305c939420")
+		(property "Reference" "D21"
+			(at 59.69 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 57.15 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e811e61-b44f-4192-bf33-d6fe8353d640")
+		)
+		(pin "2"
+			(uuid "23df852b-4ae7-4d4a-bc9c-340e7fbd9c81")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 109.22 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18129b21-5b4e-4e41-b156-5ee1e92eb1fc")
+		(property "Reference" "SW14"
+			(at 109.22 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04f598b4-328e-4cee-9ac5-9c59e43cf52e")
+		)
+		(pin "2"
+			(uuid "76d46183-cc68-42e3-889e-e868ca72d69e")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 231.14 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b70ddb4-61ea-4194-ad6b-d87c777aadb5")
+		(property "Reference" "D9"
+			(at 233.68 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 233.68 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 231.14 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 231.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69f25a7b-d79f-468d-a851-c978cd5fab42")
+		)
+		(pin "2"
+			(uuid "57beefae-7383-415a-af14-4bf07c8abb04")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 226.06 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21a8fbb6-1e00-4386-8d4d-9c040cae60f9")
+		(property "Reference" "SW9"
+			(at 226.06 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 226.06 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e2a640-11d8-46e3-964e-e7b2b42b2369")
+		)
+		(pin "2"
+			(uuid "8b4327ba-9f46-48c5-9d8b-7755065e547b")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 207.01 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22ba251e-197c-4ac1-af85-8617c9e62409")
+		(property "Reference" "SW8"
+			(at 207.01 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c36247c8-7e92-4f54-90bc-ce8149756639")
+		)
+		(pin "2"
+			(uuid "7df481bf-6af6-4277-8f24-ed2c091858b8")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 173.99 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24836ab2-dcbb-4c5e-8f32-7ab312a02293")
+		(property "Reference" "D6"
+			(at 176.53 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 176.53 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 173.99 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acfffb9f-c528-45b0-9feb-797c17736249")
+		)
+		(pin "2"
+			(uuid "8cec35fd-3c51-43b2-8362-9ca6d5d8bfaf")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 76.2 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28847f3e-704a-46a4-8d42-99c2b9a7eb50")
+		(property "Reference" "D2"
+			(at 78.74 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 78.74 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 76.2 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71794dc0-21ed-4397-bcda-6fb5f8c8736f")
+		)
+		(pin "2"
+			(uuid "d47838cb-b6df-4b29-92da-cd37982244dc")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 90.17 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ba53138-0699-4892-944e-5159da1dbcb9")
+		(property "Reference" "SW23"
+			(at 90.17 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 90.17 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e690f8a-eeb1-420c-a719-ac3f5fe87e3f")
+		)
+		(pin "2"
+			(uuid "dc73650d-b967-4145-8d54-db8c6d2d7089")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 76.2 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "351563fa-6b82-45fe-808c-0f1996ef9eaf")
+		(property "Reference" "D22"
+			(at 78.74 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 78.74 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 76.2 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc74ea86-0e71-4dd3-a6f5-61fcf14f6b96")
+		)
+		(pin "2"
+			(uuid "76f82b0a-78de-48d8-a565-7f8250ae7ed4")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 133.35 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36a3d6d6-bfcd-4cea-885b-a4b912c55449")
+		(property "Reference" "D5"
+			(at 135.89 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 133.35 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f13a86f2-a686-430e-a6a3-e4df7ff79c9b")
+		)
+		(pin "2"
+			(uuid "77b5820a-48e9-47b1-9651-a93901bf5314")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 226.06 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "376dbacf-4ed5-4b72-a082-36bcfe36942d")
+		(property "Reference" "SW29"
+			(at 226.06 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 226.06 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee61286-d141-4b5f-bcbd-22ad706b725b")
+		)
+		(pin "2"
+			(uuid "2be9d181-e82d-4969-a360-7157dd116b14")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 250.19 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aabd72b-3372-4176-bee0-c4daf330d709")
+		(property "Reference" "D20"
+			(at 252.73 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 252.73 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 250.19 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 250.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ec6ab50-79c3-4d91-a8ff-7868235db549")
+		)
+		(pin "2"
+			(uuid "cf472bbc-b995-4285-b4d8-6c1548396dd8")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 133.35 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f2b6f51-3399-4ac8-9f36-6bc91513a60d")
+		(property "Reference" "D15"
+			(at 135.89 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 133.35 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd0333af-1549-4c16-97e8-c69b49e088b9")
+		)
+		(pin "2"
+			(uuid "9d0b7036-28a6-4f77-834d-2153241c3d52")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 245.11 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44d6c130-513a-4237-b6a1-b2ff9328fa7c")
+		(property "Reference" "SW20"
+			(at 245.11 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 245.11 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbc927bf-9641-4d09-b04e-1ed71b1e4be2")
+		)
+		(pin "2"
+			(uuid "bc04e401-0ddf-4256-a917-2edf608996bb")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 109.22 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ec166d7-653a-4388-8050-032807183a35")
+		(property "Reference" "SW24"
+			(at 109.22 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 109.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0fddaef-d4e2-4ed8-bec1-c676ba6516eb")
+		)
+		(pin "2"
+			(uuid "ca2e5fa0-95d3-4dc8-b838-b0cddda43aad")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 212.09 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ecd0c7d-5d1f-4858-a91e-37ea05aa76f4")
+		(property "Reference" "D8"
+			(at 214.63 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 212.09 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c31f70b-4630-4b09-bd21-613cbf2b16d4")
+		)
+		(pin "2"
+			(uuid "6ec9cd0a-9a69-4102-9392-06ec47836a4c")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 81.28 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c7ba3e0-dc4f-495c-b30f-0f0bad0fa98f")
+		(property "Reference" "H10"
+			(at 83.82 132.1054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 83.82 134.4168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92480368-9fbe-4379-b4e8-9ab6b590745b")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 71.12 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e3f9fa4-02de-4963-ad9b-005a64aa800c")
+		(property "Reference" "SW12"
+			(at 71.12 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 71.12 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e62b11d3-5354-4b69-97fd-87d412ef58b2")
+		)
+		(pin "2"
+			(uuid "3a8e66df-cce2-4ac4-96d6-1dd4a4f73f06")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 114.3 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6063219c-e347-462a-935d-1927f1cacfcb")
+		(property "Reference" "D31"
+			(at 116.84 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 116.84 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 114.3 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bef4c30e-cecb-4817-88bd-ae56300ea466")
+		)
+		(pin "2"
+			(uuid "8c784897-183c-481c-88ad-4d0fdf80406b")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 173.99 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6393716f-2949-4e9b-8bce-90ca80a99de4")
+		(property "Reference" "D26"
+			(at 176.53 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 176.53 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 173.99 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ddc853f-029a-4d90-b4c5-316d6577572e")
+		)
+		(pin "2"
+			(uuid "3942fe57-372f-46e4-ad65-97f35f6ae045")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 193.04 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f6f311-7615-45bb-bc61-e89649e05715")
+		(property "Reference" "D34"
+			(at 195.58 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 195.58 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 193.04 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b741e73-e071-4eea-a94a-8e9ceeb0e47d")
+		)
+		(pin "2"
+			(uuid "9658111c-0727-42b4-ae28-ade137c0524b")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 173.99 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6918c6ec-ab37-4f4b-bdd4-0aaf484e38dd")
+		(property "Reference" "D33"
+			(at 176.53 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 176.53 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 173.99 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34b2692f-232b-44d1-81ea-98564a4cf7f3")
+		)
+		(pin "2"
+			(uuid "b8afcdf4-c620-4a34-baba-0efeaf43259b")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 212.09 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c8e8fc4-42a4-4b4d-8f24-c0f7c510bf5a")
+		(property "Reference" "D18"
+			(at 214.63 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 212.09 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dde1b79-a27a-49b5-8ea4-dc110630424c")
+		)
+		(pin "2"
+			(uuid "b8b3ff72-fb0c-440d-ad58-2a65c6ecf9ef")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 187.96 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c994a5b-29ce-40f1-82f2-07f44339cc2e")
+		(property "Reference" "SW7"
+			(at 187.96 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "578bf562-1c22-4d7f-ad71-94bb195f0f0c")
+		)
+		(pin "2"
+			(uuid "e65008f2-93e4-4ccb-9105-46ff7bc6cbec")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 67.31 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f5226fd-d701-4c25-ab6c-6a888d4b988d")
+		(property "Reference" "H9"
+			(at 69.85 132.1054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 69.85 134.4168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eab9e53d-32c4-4e45-9b78-fb36d1a1c8e8")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 193.04 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7228521c-b08f-4f24-ba47-72cc93338a15")
+		(property "Reference" "D7"
+			(at 195.58 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 195.58 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 193.04 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3705211c-8a54-4922-99f1-f2c2caa7a419")
+		)
+		(pin "2"
+			(uuid "f84f416d-ddef-4688-8b6d-bb87e424dc69")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 187.96 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "728561c2-8e9c-457f-a100-8943ef865c3e")
+		(property "Reference" "SW17"
+			(at 187.96 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "902f41e7-6e21-4a37-96ed-07f228925ae1")
+		)
+		(pin "2"
+			(uuid "fedded6a-5a08-4f9a-94ae-4e2c5ad8cef1")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 168.91 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74e5882e-7044-45f1-b4bd-c13eb018baeb")
+		(property "Reference" "SW6"
+			(at 168.91 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 168.91 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42a77dd2-1b10-4d59-87b1-2a2c9dd5741f")
+		)
+		(pin "2"
+			(uuid "0d5f0a77-be75-435c-9280-129dc919c488")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 114.3 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8009134e-cecb-44f4-9c8f-e50ee5c51b76")
+		(property "Reference" "D24"
+			(at 116.84 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 116.84 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 114.3 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d381daae-eaba-46f3-8ee7-2edbf428ec44")
+		)
+		(pin "2"
+			(uuid "fd541199-b655-4e69-bbf6-fe3c29741ed9")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 168.91 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8388245c-7e76-40c1-a759-fec26a8ddd48")
+		(property "Reference" "SW16"
+			(at 168.91 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 168.91 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 168.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c575a725-90ef-4659-8768-ada52e5fea17")
+		)
+		(pin "2"
+			(uuid "0f6af2fe-b9d1-4659-8d67-e88a62871355")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 133.35 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb30110-56e5-4b27-ade7-a76be332a188")
+		(property "Reference" "D32"
+			(at 135.89 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 133.35 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bbd083d-be8f-447e-a9ba-bb106c7f646b")
+		)
+		(pin "2"
+			(uuid "fb6a7efd-354d-4431-986b-47c302173f03")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 231.14 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d00049a-8f26-4539-8306-9a553c56a660")
+		(property "Reference" "D19"
+			(at 233.68 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 233.68 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 231.14 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 231.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1eb73a5-1b0e-4902-b8af-82338c6e7c0e")
+		)
+		(pin "2"
+			(uuid "296969a6-7a77-42f8-88c0-e772c4b3f7c4")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 187.96 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98b32195-dfb7-4013-9cdf-29b873603d77")
+		(property "Reference" "SW27"
+			(at 187.96 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d49ea55-0030-4729-8d95-596480f38d61")
+		)
+		(pin "2"
+			(uuid "fa2fd6b7-2622-4519-b13a-1aba05d5bfcd")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ced5c77-0ad8-47a7-8313-2e66b36793f5")
+		(property "Reference" "#PWR01"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b0894c-15d4-4915-b1e9-58ec5051b609")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 57.15 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dcf6b00-9bb4-4a92-8baf-3e2dad576735")
+		(property "Reference" "D11"
+			(at 59.69 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 57.15 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e281a29-6b0a-4d7a-9367-ab460107153e")
+		)
+		(pin "2"
+			(uuid "d25a6092-b18d-4157-83e1-bde4f607a05d")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 207.01 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e8917e3-337a-4b30-b599-8aadb533c08c")
+		(property "Reference" "SW18"
+			(at 207.01 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4500a65-d642-4dde-b8a2-f908f849cf6a")
+		)
+		(pin "2"
+			(uuid "15dcb428-a254-4f5a-9f8d-08b2a8ef9646")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 187.96 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14be14c-7476-4020-b85c-9781fdea7eb0")
+		(property "Reference" "SW34"
+			(at 187.96 79.121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 81.4324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "950c7a8f-4af6-4491-b8ee-8c959d2cf0f0")
+		)
+		(pin "2"
+			(uuid "1aaa6b4c-3b77-4783-8d33-b4e8dd9f08a8")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 245.11 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1f5e8d5-83a3-4e98-9e94-623aa6b848eb")
+		(property "Reference" "SW10"
+			(at 245.11 28.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 245.11 30.6324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb9f70a-03cb-4317-9b08-9efded49b0b1")
+		)
+		(pin "2"
+			(uuid "3c70422f-ae12-4bb3-ae2e-01194c598776")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 128.27 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6fdb50b-f3b6-459c-993a-a724849f3e53")
+		(property "Reference" "SW32"
+			(at 128.27 79.121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 128.27 81.4324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ab50d46-4a55-4dc5-87d3-71ff8f22e414")
+		)
+		(pin "2"
+			(uuid "7086aeb5-8d47-4e78-964a-bb824e8a6acb")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 95.25 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9408f06-db9e-4f16-a064-1e5eea761c59")
+		(property "Reference" "D23"
+			(at 97.79 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 97.79 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 95.25 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10f8faa7-1b4b-4762-aec8-a4e373fc5f6b")
+		)
+		(pin "2"
+			(uuid "f5213fcc-8c0f-4d89-b517-19139d12b621")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 52.07 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9c9a10c-27ce-44fd-af94-4a1f87a44ddf")
+		(property "Reference" "SW11"
+			(at 52.07 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 52.07 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beaceb9f-d214-4ae7-a649-433894d094d2")
+		)
+		(pin "2"
+			(uuid "d264460d-79b2-4037-90e1-9cce6df49368")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 168.91 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaf4252a-8374-4a11-96c7-101d1a6c6841")
+		(property "Reference" "SW26"
+			(at 168.91 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 168.91 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e07f91c9-dd30-4742-a156-5df97994f365")
+		)
+		(pin "2"
+			(uuid "50fa6d0b-816e-445f-8a5d-5aafed387ffe")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 67.31 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb15344-3230-4c5a-ba04-3b90419463c5")
+		(property "Reference" "H6"
+			(at 69.85 123.2154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 69.85 125.5268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31132c74-d14a-42b9-8017-010d0b5b9973")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 114.3 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b07129a7-6923-4627-b8c3-a4a0c5d72af1")
+		(property "Reference" "D14"
+			(at 116.84 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 116.84 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 114.3 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3161d345-9641-4f42-ac5a-fec4a56b7bcb")
+		)
+		(pin "2"
+			(uuid "2baa20f1-7c19-46d4-8476-7ff82d2acace")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 128.27 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1fac9d5-3a57-4fb1-93a2-2692099932f2")
+		(property "Reference" "SW25"
+			(at 128.27 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 128.27 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4095ee57-c6e0-4a17-8f48-a7aba2174baf")
+		)
+		(pin "2"
+			(uuid "1469d29c-a838-4897-aa5e-230df2a0abb3")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 173.99 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e2523d-7e37-4df5-9370-77ebe9df11fc")
+		(property "Reference" "D16"
+			(at 176.53 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 176.53 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 173.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8096216e-342d-460e-a9ea-f085f4860bc0")
+		)
+		(pin "2"
+			(uuid "8a3903cb-aca4-4fa1-9122-dffa54fa02c1")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 231.14 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b407e1e6-1ad1-4a8c-8592-d8f609b72e8f")
+		(property "Reference" "D29"
+			(at 233.68 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 233.68 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 231.14 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb49ac93-862b-4f8f-9d60-19e47a2911d3")
+		)
+		(pin "2"
+			(uuid "3623ab7b-0134-4468-aa0a-1b8dbd018472")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 76.2 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8db9658-a058-42d4-b0e0-9ad2f4c10e4d")
+		(property "Reference" "D12"
+			(at 78.74 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 78.74 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 76.2 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3b19418-fc9f-4e46-9b81-ba3da6d7d726")
+		)
+		(pin "2"
+			(uuid "e3786343-3c05-420f-8192-624c7758522e")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:RP2040-Zero")
+		(at 194.31 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be71136d-ad28-4932-b07d-0a005193b9ec")
+		(property "Reference" "U1"
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RP2040-Zero"
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:RP2040-Zero_SMD"
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d99502b5-5806-4be4-aff6-67d8b4fb8001")
+		)
+		(pin "22"
+			(uuid "98644857-fc5c-4726-8bad-00e66b4fdf04")
+		)
+		(pin "16"
+			(uuid "29c43b5b-bf39-4465-ac3d-34af881c7fb3")
+		)
+		(pin "20"
+			(uuid "60ee2d45-a2da-46ec-8517-379aef053bd8")
+		)
+		(pin "4"
+			(uuid "85c53888-d2da-4eed-9ba1-817050b14b96")
+		)
+		(pin "23"
+			(uuid "f86a7d33-aae7-4265-9d21-33741f310264")
+		)
+		(pin "12"
+			(uuid "59b7a449-aba8-4d56-8555-f2572fe937da")
+		)
+		(pin "18"
+			(uuid "5134e65b-ab29-42bb-8566-119a89d82b4f")
+		)
+		(pin "14"
+			(uuid "cb64d9e3-e2fc-4e8c-8915-ca1373399288")
+		)
+		(pin "15"
+			(uuid "e821bc76-9349-444d-a9e4-7f9039135c3b")
+		)
+		(pin "17"
+			(uuid "e94e9f24-a610-41fe-bbb4-5a5d107a52b3")
+		)
+		(pin "19"
+			(uuid "370e7c8e-a576-40aa-82f0-5080f3869844")
+		)
+		(pin "11"
+			(uuid "75ad4b0f-c07b-4b29-9548-e34ba9ab0160")
+		)
+		(pin "21"
+			(uuid "02f3f072-aa0b-4291-b6ba-91d2e642979a")
+		)
+		(pin "3"
+			(uuid "60e71c16-1d7e-40e7-8c35-6763f6a8496f")
+		)
+		(pin "5"
+			(uuid "394e076e-ae08-43fa-9556-f698178b681f")
+		)
+		(pin "10"
+			(uuid "da1c1169-0592-48ff-bcf7-c90a98b26d44")
+		)
+		(pin "2"
+			(uuid "4a6eb34e-e762-462c-90b0-3ffcf14650f9")
+		)
+		(pin "7"
+			(uuid "0ed24d06-5751-4e69-b9f3-cb6b8f9a9fb4")
+		)
+		(pin "9"
+			(uuid "0a10c5d9-5094-4b5c-bee7-365a690c5368")
+		)
+		(pin "6"
+			(uuid "c822ca88-b62d-460a-81e8-2e27acd5902f")
+		)
+		(pin "13"
+			(uuid "357def47-f54c-42a9-99f3-62bb2453eb9b")
+		)
+		(pin "8"
+			(uuid "b8ed95eb-2625-48e7-9474-dbc9f97b16bb")
+		)
+		(instances
+			(project ""
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 53.34 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "be87ac0f-c77f-485c-ba83-10f4fb2fd601")
+		(property "Reference" "H8"
+			(at 55.88 132.1054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 55.88 134.4168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a15fa6-94dc-4b9b-88dc-58dae824eec8")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 109.22 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c5ec09-eeb6-4e14-be59-22fb41fa2a16")
+		(property "Reference" "SW31"
+			(at 109.22 79.121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 81.4324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f94ec726-dc07-4e9e-a486-dc3e38fbf1cc")
+		)
+		(pin "2"
+			(uuid "e064025c-0738-4229-8d85-86da1318dc5d")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 171.45 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c586eacf-3883-435f-865f-9b588dc0e9e2")
+		(property "Reference" "#PWR02"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1763cd4e-1036-42cf-8d59-e9d5d7683cdb")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 95.25 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c884648a-f5db-44b5-8de5-413658fcc2c6")
+		(property "Reference" "H7"
+			(at 97.79 123.2154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 97.79 125.5268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d046c69c-53a8-4a51-93d4-2c34221a0621")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 193.04 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc3a83a3-0033-4598-96f0-06bb25db7000")
+		(property "Reference" "D17"
+			(at 195.58 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 195.58 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 193.04 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc043cdd-0197-41b4-a942-839ead6f6cbc")
+		)
+		(pin "2"
+			(uuid "d66a29d0-af23-408c-b0dd-05bda2558d3b")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 212.09 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccbb2f33-ff7a-4965-afb6-55a44d9675aa")
+		(property "Reference" "D28"
+			(at 214.63 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 212.09 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 212.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a82a4c3-04a1-47cf-97db-026842c1b47c")
+		)
+		(pin "2"
+			(uuid "385068ef-25d5-4202-b4e5-0b4f16da1daf")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 114.3 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd90d14f-e028-463d-8d3b-87da8a898860")
+		(property "Reference" "D4"
+			(at 116.84 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 116.84 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 114.3 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "007a2b05-3412-494e-b1fe-4efe690955fa")
+		)
+		(pin "2"
+			(uuid "9aff4dcc-2e56-4cab-bdcd-a11a48f75e0a")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:Hole_Pad")
+		(at 39.37 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ec7b39-b7b5-4a2c-b95e-c6a81bf38dab")
+		(property "Reference" "H5"
+			(at 41.91 123.2154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 41.91 125.5268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cata-footprints:Mount_M2"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60ac31f8-dc73-40a5-aaf6-5aab4c56cf76")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 250.19 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e4afb1-db78-4769-87e3-43a9ae77f946")
+		(property "Reference" "D30"
+			(at 252.73 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 252.73 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 250.19 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 250.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f670725-b555-48f5-be73-d2575d10d88e")
+		)
+		(pin "2"
+			(uuid "2519d617-d62a-4d06-9f59-720e48c56fd0")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 245.11 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7651dec-986a-48e1-a66c-dfe8bd3f638d")
+		(property "Reference" "SW30"
+			(at 245.11 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 245.11 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6781930-3aa9-4757-8433-b465189ff41b")
+		)
+		(pin "2"
+			(uuid "e77228d9-edff-49da-9d8d-6036bfcb2cb4")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 57.15 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfc117d1-27c8-491e-8996-8a6ae69c2522")
+		(property "Reference" "D1"
+			(at 59.69 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 59.69 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 57.15 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 57.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad9395fa-78c3-4c8f-a1b8-a9bc632d422d")
+		)
+		(pin "2"
+			(uuid "e2666a27-bd19-48b7-aa5b-32a75112099e")
+		)
+		(instances
+			(project ""
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 90.17 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e03da778-8e22-4416-8b4b-efb6cc8d855b")
+		(property "Reference" "SW13"
+			(at 90.17 44.831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 90.17 47.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1dd070a-15d4-43ff-9046-26aef363864b")
+		)
+		(pin "2"
+			(uuid "efc48bd4-acfd-495e-aa98-8f9f97e36e43")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 95.25 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2ba1370-ed87-48ab-8d0f-c8e508ac1da6")
+		(property "Reference" "D13"
+			(at 97.79 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 97.79 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 95.25 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ae0d32c-9875-4bbd-a8e0-56d0e641f27f")
+		)
+		(pin "2"
+			(uuid "c876a3f4-45d6-4b11-b4e1-feff18b4e79d")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 250.19 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecb8a94b-5732-4730-a89c-b023900a9fe2")
+		(property "Reference" "D10"
+			(at 252.73 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 252.73 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 250.19 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ad9a20-7bf8-4f3e-862f-7c6e7a10541c")
+		)
+		(pin "2"
+			(uuid "7670c40f-f294-4306-8ec1-21a73157ab84")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 193.04 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f11a3679-23ef-4024-88f0-23ffa36f12df")
+		(property "Reference" "D27"
+			(at 195.58 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 195.58 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 193.04 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3d02e01-6080-421c-a26d-ee0a8d733e2c")
+		)
+		(pin "2"
+			(uuid "a752ed79-89c1-4bf3-aa4c-295c43543452")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 168.91 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1804f5d-7ccc-4f00-aa80-960678aaffa8")
+		(property "Reference" "SW33"
+			(at 168.91 79.121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 168.91 81.4324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c38d637-d4f3-4b69-8b43-440ab144b04b")
+		)
+		(pin "2"
+			(uuid "fc3e369d-3cc7-4438-96fe-30e02a12e00a")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:D")
+		(at 133.35 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f705a223-4b30-40c1-b7b3-6cc2ff8b6fda")
+		(property "Reference" "D25"
+			(at 135.89 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 135.89 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "cata-footprints:D_SOD-123"
+			(at 133.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9395b4d2-1f59-4522-b647-87c86cbb662b")
+		)
+		(pin "2"
+			(uuid "706c02ac-d3cb-4fe7-b3d4-ba2860a6b14a")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cata-components:SW_Push")
+		(at 52.07 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faa5ef66-97ac-4337-bc56-dcf036c5203a")
+		(property "Reference" "SW21"
+			(at 52.07 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 52.07 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cata-footprints:SW_KS33_Reverse_Cutout"
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb290202-4c44-4448-ab10-566ec8d8b8ee")
+		)
+		(pin "2"
+			(uuid "9c49194e-8ff8-4a17-8d84-6caaa5b098eb")
+		)
+		(instances
+			(project "cata-ks-33"
+				(path "/ef1b4b98-541b-4673-a04f-2043250fc40a"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
