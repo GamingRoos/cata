@@ -4,7 +4,9 @@ Cata is a 34 key ortholinear keyboard, powered by a [Waveshare RP2040-Zero](http
 
 It uses Gateron KS-33 Low Profile 3.0 keyswitches with 19mm x 19mm spacing.
 
-The PCB design is akin to the [Sha Keyboard](https://github.com/skarrmann/sha), but with fewer keys and different switches.
+The PCB design is akin to the [Sha Keyboard](https://github.com/skarrmann/sha), but with fewer keys.
+
+The purpose of this build was to try out the Gateron KS-33 Low Profile 3.0 keyswitches on a minimalistic keyboard.
 
 ## Project structure
 
@@ -20,7 +22,7 @@ The PCB design is akin to the [Sha Keyboard](https://github.com/skarrmann/sha), 
 
 The main PCB is used as the logical PCB. A second copy of the main PCB is used a bottom plate, by flipping it the long way and screwing it directly to the logical PCB.
 
-The plate PCB cover the dev board and diodes. It has cutouts which fit the boot and reset buttons on the dev board.
+The plate PCB cover the dev board and diodes. It has cutouts to access the boot and reset buttons on the dev board.
 
 ## Keyboard firmware
 
@@ -64,8 +66,8 @@ These are the manufacturing settings I used when ordering from JLCPCB:
 ## Build tips
 
 * Before starting, check if the PCBs are warped, and bend them to be perfectly flat before soldering.
-* Make sure the diodes are oriented correctly, cathode on the side with the line! Once the keyswitches are soldered in, you won't be able to get to them anymore.
-* Make sure the dev board is placed **buttons on top**. The pinout labels printed on the PCB should align with those printed on the dev board.
+* Make sure the diodes are oriented correctly, cathode on the side with the line!.
+* Make sure the RP2040-Zero is soldered **buttons on top**. The pinout labels printed on the PCB should align with those printed on the dev board.
 
 ## KiCad project notes
 
