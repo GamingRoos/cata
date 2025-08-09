@@ -2,11 +2,14 @@
 
 Cata is a 34 key ortholinear keyboard, powered by a [Waveshare RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm).
 
-It uses Gateron KS-33 Low Profile 3.0 keyswitches with 19mm x 19mm spacing.
+It uses [Gateron KS-33 Low Profile 3.0 keyswitches](https://nuphy.com/products/gateron-low-profile-3-0-switches) with 19mm x 19mm spacing.
 
-The PCB design is akin to the [Sha Keyboard](https://github.com/skarrmann/sha), but with fewer keys.
+The PCB design is akin to the [Sha Keyboard](https://github.com/skarrmann/sha), but with fewer keys and different keyswitches.
 
-The purpose of this build was to try out the Gateron KS-33 Low Profile 3.0 keyswitches on a minimalistic keyboard.
+![Cata complete build top photo](images/cata-top.jpg)
+![Cata complete build top angle photo](images/cata-top-angle.jpg)
+![Cata complete build bottom photo](images/cata-bottom.jpg)
+![Cata complete build bottom angle photo](images/cata-bottom-angle.jpg)
 
 ## Project structure
 
@@ -20,13 +23,16 @@ The purpose of this build was to try out the Gateron KS-33 Low Profile 3.0 keysw
 
 **Each build uses two copies of the main PCB and one copy of the top plate PCB.**
 
+![Cata PCBs photo](images/cata-pcbs.jpg)
+
 The main PCB is used as the logical PCB. A second copy of the main PCB is used a bottom plate, by flipping it the long way and screwing it directly to the logical PCB.
 
-The plate PCB cover the dev board and diodes. It has cutouts to access the boot and reset buttons on the dev board.
+The plate PCB cover the dev board and diodes. It has cutouts which fit the boot and reset buttons on the dev board.
 
 ## Keyboard firmware
 
-* *TBD*
+* KMK
+    * Setup instructions and basic configuration is in this repo: [`firmware/kmk`](firmware/kmk)
 
 ## Bill of materials
 
@@ -36,11 +42,11 @@ Main PCB  | logical PCB, bottom plate | 2 | Send Gerber zip files to [JLCPCB](ht
 Top plate PCB  | cover dev board and diodes  | 1 | 
 Waveshare RP2040-Zero | Microcontroller board | 1 |
 1N4148 SOD-123 | Diodes for keyboard row-column matrix | 34 |
-Gateron KS-33 Low Profile Keyswitches |  | 34 |
+Gateron KS-33 Low Profile 3.0 Keyswitches |  | 34 | [Several options available from Nuphy](https://nuphy.com/products/gateron-low-profile-3-0-switches)
 MX Low Profile Keycaps | | 34 | Use low profile keycaps which fit 19mm x 19mm spacing
-M2 5mm screws | Screws PCBs together | 11 |
+M2 5mm screws | Screws PCBs together | 12 |
 M2 6mm spacers | Spacers between logical PCB and top plates | 2 |
-M2 nuts | Holds the top screws between the bottom plate and logical PCB | 7 |
+M2 nuts | Holds the top screws between the bottom plate and logical PCB | 8 |
 
 ## PCB manufacturing settings
 
@@ -66,8 +72,11 @@ These are the manufacturing settings I used when ordering from JLCPCB:
 ## Build tips
 
 * Before starting, check if the PCBs are warped, and bend them to be perfectly flat before soldering.
-* Make sure the diodes are oriented correctly, cathode on the side with the line!.
+* Make sure the diodes are oriented correctly, cathode on the side with the line! The diodes are very close together, so narrow tweasers can help position them.
+    * ![Cata soldering diodes photo](images/cata-solder-diodes.jpg)
 * Make sure the RP2040-Zero is soldered **buttons on top**. The pinout labels printed on the PCB should align with those printed on the dev board.
+    * ![Cata soldering dev board photo](images/cata-solder-dev-board.jpg)
+    * ![Cata soldering complete photo](images/cata-soldering-complete.jpg)
 
 ## KiCad project notes
 
