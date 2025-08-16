@@ -31,6 +31,7 @@ The plate PCB cover the dev board and diodes. It has cutouts which fit the boot 
 
 ## Keyboard firmware
 
+* QMK: Coming soon, see [pull request in the QMK firmware repository](https://github.com/qmk/qmk_firmware/pull/25557)
 * KMK
     * Setup instructions and basic configuration is in this repo: [`firmware/kmk`](firmware/kmk)
 
