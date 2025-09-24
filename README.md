@@ -34,7 +34,7 @@ The plate PCB cover the dev board and diodes. It has cutouts which fit the boot 
 * KMK
     * Setup instructions and basic configuration is in this repo: [`firmware/kmk`](firmware/kmk)
 * [QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/cata)
-* [QMK/VIAL] VIAL configs here: [`firmware/vial`](firmware/vial)
+* QMK/VIAL VIAL configs here: [`firmware/vial`](firmware/vial)
 ## Bill of materials
 
 Part | Purpose | Quantity | Notes
